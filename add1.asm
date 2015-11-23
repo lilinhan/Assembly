@@ -13,10 +13,18 @@ code segment
         add al,y
         aaa
 
+        push ax
+        add ah,30h
+        mov dl,ah
+        mov ah,2
+        int 21h
+
+        pop ax
         add al,30h
         mov dl,al
         mov ah,2
         int 21h
+
 
         mov ah,4ch
         int 21h

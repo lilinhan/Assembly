@@ -1,6 +1,6 @@
 data segment
     x db 05h
-    y db 08h
+    y db 09h
 data ends
 
 code segment

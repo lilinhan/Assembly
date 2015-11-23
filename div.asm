@@ -1,6 +1,6 @@
 data segment
-    x db 42
-    y db 7
+    x db 81
+    y db 9
 data ends
 
 code segment

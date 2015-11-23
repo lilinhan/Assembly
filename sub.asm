@@ -1,6 +1,6 @@
 data segment
     x db 35h
-    y db 27h
+    y db 15h
 data ends
 
 stack segment
