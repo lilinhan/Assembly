@@ -1,6 +1,6 @@
 data segment
     num db 09h
-    num1 db 08h
+    num1 db 04h
     default db ?
     carry db ?
 data ends
